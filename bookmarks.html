@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="Logo.png">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/boardgame-io/0.49.5/boardgameio.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.5.1/cdn.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Dynatable/0.3.1/jquery.dynatable.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.9/plyr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js">
+</script>
+<style>
+.button {
+  background-color: white;
+  border: none;
+  color: #0070ff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #F7F7F7;
+  color: #0070ff;
+}
+.button2 {
+  background-color: #0070ff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button2:hover {
+  background-color: #0070ee;
+  color: white;
+}
+  .footer {
+  border-top-style: dotted;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+</style>
+<head>
+  <meta name="google-site-verification" content="VaydnY8ik-DsMVO5FNoFB1Ybc5vGQSbm4fWQJN27fN4" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js">
+	</script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Merch!</h1>
+  <p>Get your merch here!</p>
+  <h2><a href="register.php" class="button button1">Login</a></h2>
+ </div>
+ <body>
+<nav>
+<ul>
+  <li hight="50"><img src="Logo.png" width="100px" height="50px"></li>
+  <li><a href="/">Home</a></li>
+  <li><a href="#">Shady Alley</a></li>
+  <li><a href="#">Shady Valley</a></li>
+  <li><a href="#">SCA</a></li>
+  <li><a href="#">Other</a></li>
+  <li><a href="merch.html">Merch and Ranks</a></li>
+  <li><a href="p.html">Ytdwnld</a></li>
+  <li><a href="Login.html">Admin Login</a></li>
+   <li style="float:right"><div class="mode"><span class="change">OFF</span></li>
+    <li style="float:right"><span class="dm">Dark Mode:</li>
+</ul>
+</nav>
+</Body>
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<style>
+.column {
+  float: left;
+  margin-top: 100px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+    .dm {
+  color: #666;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+    }
+		.change {
+  background-color: #ffffff;
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.change {
+  background-color: #f3f3f3;
+  color: #666; 
+}
+
+.change:hover {
+  background-color: #d4d4d4;
+  color: #0070ff;
+}
+html {
+height: 100%;
+}
+.dark {
+background-color: #3E3E3E;
+background: radial-gradient(ellipse at center, #707070 13%, #333333 100%);
+height: 100%;  
+}.about {
+text-align: center;
+}
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+.img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+	</style>
+  <h1 class="about" style="margin-top:50px;">Bookmarks</h1>
+  <div class="row">
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+  <div class="column side about"><p><a href="payment link"><img src="Logo.png" height="200px" class="img"></p></a><h2>name</h2><h3>price</h3><p>description</p></div>
+<div class="footer">Trademarked by TRSAOT enterprises 2021-2022</div>
+</head>
+	
+	<script>
+		$( ".change" ).on("click", function() {
+			if( $( "body" ).hasClass( "dark" )) {
+				$( "body" ).removeClass( "dark" );
+				$( ".change" ).text( "OFF" );
+			} else {
+				$( "body" ).addClass( "dark" );
+				$( ".change" ).text( "ON" );
+			}
+		});
+	</script>
+</body>
+
+</html>
