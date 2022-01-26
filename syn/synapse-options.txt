@@ -1,0 +1,11 @@
+synapse-options{
+  version:"2"
+  dir:"/"
+  ace:"/ace"
+  replit:".replit"
+  syn-lang:"en-US"
+  token:"/syn/token.dir"
+  syn-run:{
+    "/"
+  }
+}
